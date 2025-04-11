@@ -32,7 +32,7 @@ int main()
     
     PIBperCapita = (float) populacao / PIB;
     densidadePopulacional= (float) populacao / areaKm;  
-    SuperPoder1 = (float) populacao + PIB + PontosTuristicos + PIBperCapita +  1 / densidadePopulacional;
+    SuperPoder1 = (float) populacao + PIB + PontosTuristicos + PIBperCapita + densidadePopulacional / 1;
     
     
     printf("\nCARTA 1\n\n");
@@ -60,7 +60,7 @@ int main()
     
     PIBperCapita = (float) populacao / PIB;
     densidadePopulacional= (float) populacao / areaKm;  
-    SuperPoder2 = (float) populacao + PIB + PontosTuristicos + PIBperCapita +  1 / densidadePopulacional;
+    SuperPoder1 = (float) populacao + PIB + PontosTuristicos + PIBperCapita + densidadePopulacional / 1;
     
     
     printf("\nCARTA 2\n\n");
