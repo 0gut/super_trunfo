@@ -38,9 +38,9 @@ int main()
     printf("\nCARTA 1\n\n");
     printf("Estado: %s \nCodigo da carta: %s \nNome da cidade: %s \n", estado,codigoCarta,nomeCidade);
     printf("Tamanho da populacao: %d abitantes \nArea em km: %.2f Km \nPIB: R$ %.2f Bilhoes de Reais \nNumero de pontos turisticos: %d \n", populacao,areaKm,PIB, PontosTuristicos);
-    printf("Densidade populacional: %.2f hab/km虏\n", densidadePopulacional);
+    printf("Densidade populacional: %.2f hab/km\n", densidadePopulacional);
     printf("PIB per capita;R$ %.2f Reais\n", PIBperCapita);
-    printf("O super poder 茅: %.2f \n", SuperPoder1);
+    printf("O super poder e: %.2f \n", SuperPoder1);
     
     
     printf("\nDigite o estado da carta: \n");
@@ -66,9 +66,9 @@ int main()
     printf("\nCARTA 2\n\n");
     printf("Estado: %s \nCodigo da carta: %s \nNome da cidade: %s \n", estado,codigoCarta,nomeCidade);
     printf("Tamanho da populacao: %d abitantes \nArea em km: %.2f Km \nPIB: R$ %.2f Bilhoes de Reais \nNumero de pontos turisticos: %d \n", populacao,areaKm,PIB, PontosTuristicos);
-    printf("Densidade populacional: %.2f hab/km虏\n", densidadePopulacional);
+    printf("Densidade populacional: %.2f hab/km\n", densidadePopulacional);
     printf("PIB per capita;R$ %.2f Reais\n", PIBperCapita);
-    printf("O super poder 茅: %.2f \n", SuperPoder2);
+    printf("O super poder e: %.2f \n", SuperPoder2);
    
    printf("\nCARTA 1 %d \n", SuperPoder1 > SuperPoder2);
    printf("\nCARTA 2 %d \n", SuperPoder1 < SuperPoder2);
